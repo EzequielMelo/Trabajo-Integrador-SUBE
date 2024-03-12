@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Biblioteca_Serializadora</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca TarjetaSube\Biblioteca TarjetaSube.csproj" />
+    <ProjectReference Include="..\Biblioteca Tramites\Biblioteca Tramites.csproj" />
+    <ProjectReference Include="..\Biblioteca Usuarios\Biblioteca Usuarios.csproj" />
+  </ItemGroup>
+
+</Project>
